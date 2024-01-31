@@ -1,6 +1,5 @@
 let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом.";
 let ruleLength = rule.length;
-console.log(ruleLength);
 
 switch (true) {
     case (ruleLength < '25'):
