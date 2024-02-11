@@ -4,7 +4,12 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
+let a = []
+
 for (let i = 0; i < numbers.length; i++) {
-    const element = numbers[i].filter(numb => numb % 2 == 0);
-    console.log(element)
+
+    a.push(numbers[i].filter(numb => numb % 2 == 0));
+
 }
+
+console.log(a)
